@@ -1,0 +1,53 @@
+		body {
+   margin: 0px;
+}
+
+	#logo{
+    position:absolute;
+    top:4px; 
+    left:3px;
+    width:110px;
+    height:40px;
+    overflow:hidden;
+}
+		#logoli{
+	 width:120px;
+    height:40px;
+}
+		
+		ul.navbar {
+			  list-style-type: none;
+			  margin: 0 0 15px 0;
+			  padding: 0 ;
+			  overflow: hidden;
+			  background-color: #333;
+			}
+			
+			li.navbarelement {
+			  float: left;
+			}
+			
+			li.navbarelement a {
+			  display: block;
+			  color: white;
+			  text-align: center;
+			  padding: 14px 16px;
+			  text-decoration: none;
+			}
+			
+			/* Change the link color to #111 (black) on hover */
+			li.navbarelement a:hover {
+			  background-color: #111;
+			}
+			
+						.active {
+			  background-color: #4CAF50;
+			}
+		/* Add a gray right border to all list items, except the last item (last-child) */
+			li.navbarelement {
+			  border-right: 1px solid #bbb;
+			}
+			
+			li.navbarelement:last-child {
+			  border-right: none;
+			}
